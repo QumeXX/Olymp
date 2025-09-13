@@ -1,1 +1,1 @@
-API_KEY = "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"
+API_KEY = "Put your Key"
