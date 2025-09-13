@@ -7,7 +7,7 @@ def AI_func(msg):
     api_key=API_KEY,
   )
   completion = client.chat.completions.create(
-    model="deepseek/deepseek-chat-v3-0324:free",
+    model="deepseek/deepseek-chat-v3.1:free",
     messages=[
       {
         "role": "user",
@@ -15,5 +15,6 @@ def AI_func(msg):
       }
     ]
   )
+
 
   return completion.choices[0].message.content
